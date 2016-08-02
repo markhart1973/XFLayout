@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFLayout.XFPage1">
+    <ScrollView>
+        <StackLayout Orientation="Vertical"
+                     Padding="30"
+                     Spacing="10">
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Name" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryName" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Street" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryStreet" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="City" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryCity" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="State" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryState" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Zip" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryZip" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Home Phone" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryPhoneHome" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Cell Phone" FontSize="14" VerticalOptions="End" />
+                <Entry x:Name="EntryPhoneCell" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
